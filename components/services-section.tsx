@@ -67,7 +67,7 @@ export function ServicesSection() {
         {services.map((svc) => (
           <Link
             key={svc.id}
-            href={`/${svc.id}/madrid/`}
+            href={`/${svc.id}/`}
             className={`group relative overflow-hidden bg-secondary aspect-[4/3] ${svc.span}`}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
