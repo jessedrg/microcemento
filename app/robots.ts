@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: [
-      "https://www.microcementohoy.com/sitemap-v2.xml",
+      "https://microcementohoy.com/sitemap-v2.xml",
     ],
   }
 }

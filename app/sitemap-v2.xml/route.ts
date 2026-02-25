@@ -1,6 +1,6 @@
 import { VALID_SERVICES, MODIFIERS, PROBLEMS } from "@/lib/sitemap-data"
 
-const BASE = "https://www.microcementohoy.com"
+const BASE = "https://microcementohoy.com"
 
 export async function GET() {
   const sitemaps: string[] = []

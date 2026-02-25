@@ -80,7 +80,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${fullTitle} | Compara Presupuestos | microcemento`,
     description: `${serviceName.title}${modifierText.toLowerCase()} en ${cityName}. Compara presupuestos de aplicadores certificados. Asesoramiento GRATUITO. WhatsApp: 711 267 223`,
-    alternates: { canonical: `https://www.microcementohoy.com/${rawService}/${citySlug}/` },
+    alternates: { canonical: `https://microcementohoy.com/${rawService}/${citySlug}/` },
     openGraph: { title: fullTitle, description: `Los mejores aplicadores de ${serviceName.singular} en ${cityName}. Presupuestos gratis.`, type: "website", siteName: "microcemento" },
   }
 }

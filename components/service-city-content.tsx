@@ -396,7 +396,7 @@ export function ServiceCityContent({
         "@context": "https://schema.org", "@type": "LocalBusiness",
         name: `microcemento - ${pageTitle}`,
         description: `Los mejores aplicadores de ${serviceName.singular} en ${cityName}. Presupuestos gratis.`,
-        telephone: PHONE, url: `https://www.microcementohoy.com/${serviceId}/${citySlug}/`,
+        telephone: PHONE, url: `https://microcementohoy.com/${serviceId}/${citySlug}/`,
         address: { "@type": "PostalAddress", addressLocality: cityName, addressCountry: "ES" },
         aggregateRating: { "@type": "AggregateRating", ratingValue: avgRating, reviewCount: reviews.length, bestRating: "5", worstRating: "1" },
       })}} />
