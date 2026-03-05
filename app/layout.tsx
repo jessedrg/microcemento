@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { Inter, Cormorant_Garamond } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import WhatsAppButton from "@/components/whatsapp-button"
 
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         {children}
         <WhatsAppButton />
+        <Analytics />
       </body>
     </html>
   )
